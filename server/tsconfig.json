@@ -1,19 +1,16 @@
 {
-  "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
-    "sourceMap": true,
-    "outDir": "lib/",
-    "declaration": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true,
-    "isolatedModules": false,
-    "jsx": "preserve"
-  },
-  "include": ["src"],
-  "exclude": ["node_modules", "**/__tests__/*"]
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "isolatedModules": false,
+        "jsx": "preserve"
+    },
+    "exclude": ["node_modules", "**/__tests__/*"]
 }
