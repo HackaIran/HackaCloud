@@ -26,7 +26,7 @@ function normalizePort(val: string) {
     return false
 }
 
-function onError(error) {
+function onError(error: any) {
     if (error.syscall !== 'listen') {
         throw error
     }
@@ -47,6 +47,9 @@ function onError(error) {
 
 function onListening() {
     var addr = server.address()
+    if (!addr) {
+        return
+    }
     var bind = typeof addr === 'string' ? 'pipe ' + addr : 'port ' + addr.port
     log('Listening on ' + bind)
 }
