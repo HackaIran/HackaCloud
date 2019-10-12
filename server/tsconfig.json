@@ -2,8 +2,6 @@
     "compilerOptions": {
         "target": "es2015",
         "lib": ["es2015"],
-        "rootDir": "src",
-        "outDir": "dist",
         "module": "commonjs",
         "moduleResolution": "node",
         "esModuleInterop": true,
@@ -13,5 +11,5 @@
         "inlineSources": true,
         "types": ["node", "mocha"]
     },
-    "include": ["src/**/*"]
+    "include": ["**/*"]
 }
